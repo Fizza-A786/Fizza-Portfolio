@@ -3,7 +3,7 @@ import { IoMdMenu } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import { IoLogoBuffer } from "react-icons/io5";
 import { FaCrown} from "react-icons/fa";
-import { BiLogoBing } from "react-icons/bi";
+import { GiCrenelCrown } from "react-icons/gi";
 
 
 
@@ -32,7 +32,7 @@ const Navbar = () => {
               setActiveLink("home");
             }}
           >
-            <BiLogoBing  className="text-cyan-400 text-3xl mr-2 group-hover:text-cyan-300 transition-all duration-500 hover:rotate-360" />
+            <GiCrenelCrown className="text-cyan-400 text-3xl mr-2 group-hover:text-cyan-300 transition-all duration-500 hover:rotate-360" />
             <span className="text-white font-bold text-xl hidden sm:block group-hover:text-cyan-300 transition-colors duration-300">
               Fizza Amjad
             </span>
