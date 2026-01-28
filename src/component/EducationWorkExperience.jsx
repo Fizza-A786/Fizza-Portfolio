@@ -54,7 +54,7 @@ const EducationWorkExperience = () => {
                 >
                   <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 border-4 border-gray-900"></div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500">
-                    <h1 className="text-xl font-medium text-white mb-1">Matriculation (Bio Biology)</h1>
+                    <h1 className="text-xl font-medium text-white mb-1">Matriculation (Sceince)</h1>
                     <div className="text-cyan-400 font-medium mb-2">2020-2022</div>
                     <p className="text-gray-300">The Government School (Hasalpur)</p>
                   </div>
