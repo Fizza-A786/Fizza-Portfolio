@@ -44,7 +44,7 @@ const HeroSection = () => {
     <Fragment>
       <section
         id="home"
-        className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 "
+        className="relative overflow-hidden w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 "
       >
         <div className="container mx-auto px-6 md:px-12 lg:px-24 mt-15">
           {/* === Layout reversed on mobile === */}
@@ -91,7 +91,7 @@ const HeroSection = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="600"
               >
-                I specialize in building responsive, interactive web applications using modern frontend technologies like HTML, CSS, JavaScript, and React. I craft engaging UI/UX designs, write clean and maintainable code, and ensure seamless user experiences across devices. Let's create something innovative together!
+                I design modern, responsive websites with clean code, fluid animations & intuitive user experiences, delivering engaging digital solutions that merge creativity, performance, and seamless functionality.
               </p>
 
               <div className="pt-4" data-aos="fade-up" data-aos-delay="800">
