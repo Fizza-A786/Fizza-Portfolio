@@ -85,7 +85,7 @@ const MySkills = () => {
 
               {/* Percentage with animation */}
               <p 
-                className="text-right text-sm font-medium text-gray-300"
+                className="text-center text-sm font-medium text-gray-300"
                 data-aos="fade-left"
                 data-aos-delay={index * 100 + 600}
               >

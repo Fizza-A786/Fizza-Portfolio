@@ -54,9 +54,22 @@ const EducationWorkExperience = () => {
                 >
                   <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 border-4 border-gray-900"></div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500">
+                    <h1 className="text-xl font-medium text-white mb-1">Matriculation (Bio Biology)</h1>
+                    <div className="text-cyan-400 font-medium mb-2">2020-2022</div>
+                    <p className="text-gray-300">The Government School (Hasalpur)</p>
+                  </div>
+                </div>
+
+                <div 
+                  className="relative"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                >
+                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 border-4 border-gray-900"></div>
+                  <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Intermediate (ICS Computer Sceince)</h1>
                     <div className="text-cyan-400 font-medium mb-2">2022-2024</div>
-                    <p className="text-gray-300">Punjab College Bahawalpur</p>
+                    <p className="text-gray-300">The Graduate College Woman (Hasalpur)</p>
                   </div>
                 </div>
               </div>
@@ -94,7 +107,7 @@ const EducationWorkExperience = () => {
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-purple-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Frontend Developer</h1>
                     <div className="text-purple-400 font-medium mb-2">2025-Present</div>
-                    <p className="text-gray-300">CodesThinker Bahawalpur(Onsite)</p>
+                    <p className="text-gray-300">Codes Thinker Bahawalpur (Onsite)</p>
                   </div>
                 </div>
 
@@ -106,9 +119,9 @@ const EducationWorkExperience = () => {
                 >
                   <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 border-4 border-gray-900"></div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-purple-400 transition-all duration-500">
-                    <h1 className="text-xl font-medium text-white mb-1">ReactJS Developer</h1>
-                    <div className="text-purple-400 font-medium mb-2">2025-Present</div>
-                    <p className="text-gray-300">CodesThinker Bahawalpur (Onsite)</p>
+                    <h1 className="text-xl font-medium text-white mb-1">Frontend Developer</h1>
+                    <div className="text-purple-400 font-medium mb-2">2026-Present</div>
+                    <p className="text-gray-300">ASL Digital Creator Company (Remote)</p>
                   </div>
                 </div>
               </div>

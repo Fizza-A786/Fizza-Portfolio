@@ -23,19 +23,19 @@ const Projects = () => {
     {
       pic: img1,
       title: "Car Rental App",
-      link: "https://www.carrental.com",
+      link: "",
       color: "from-cyan-500 to-blue-600"
     },
     {
       pic: img2,
       title: "Losail App",
-      link: "https://www.losailapp.com",
+      link: "",
       color: "from-purple-500 to-pink-600"
     },
     {
       pic: img3,
       title: "Face Detection",
-      link: "https://www.facedetection.com",
+      link: "",
       color: "from-amber-500 to-orange-600"
     },
     {
@@ -47,13 +47,13 @@ const Projects = () => {
     {
       pic: img5,
       title: "Task Tracker",
-      link: "https://www.tasktracker.com",
+      link: "",
       color: "from-violet-500 to-indigo-600"
     },
     {
       pic: img6,
       title: "Quiz Quick",
-      link: "https://www.quizquick.com",
+      link: "",
       color: "from-rose-500 to-red-600"
     }
   ];

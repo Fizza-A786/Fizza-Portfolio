@@ -46,7 +46,7 @@ const AboutMe = () => {
 
   return (
     <Fragment>
-      <section id="about" className="relative bg-gradient-to-br from-gray-900 to-gray-800 py-20 px-6 md:px-12 lg:px-24 overflow-hidden">
+      <section id="about" className="relative bg-gradient-to-br from-gray-900 to-gray-800 py-20  overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             {/* Profile Image with Enhanced Animations */}
@@ -88,7 +88,7 @@ const AboutMe = () => {
             </div>
 
             {/* About Content */}
-            <div className="w-full lg:w-3/5 space-y-6">
+            <div className="w-full lg:w-3/5 space-y-6 p-5 md:p-0">
               <h1 
                 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"
                 data-aos="zoom-out-up"
