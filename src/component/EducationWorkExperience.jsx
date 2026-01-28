@@ -56,7 +56,7 @@ const EducationWorkExperience = () => {
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Matriculation (Sceince)</h1>
                     <div className="text-cyan-400 font-medium mb-2">2020-2022</div>
-                    <p className="text-gray-300">The Government School (Hasalpur)</p>
+                    <p className="text-gray-300">Superior College (Hasilpur)</p>
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ const EducationWorkExperience = () => {
                   <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Intermediate (ICS Computer Sceince)</h1>
                     <div className="text-cyan-400 font-medium mb-2">2022-2024</div>
-                    <p className="text-gray-300">The Graduate College Woman (Hasalpur)</p>
+                    <p className="text-gray-300">Superior College (Hasilpur)</p>
                   </div>
                 </div>
               </div>
