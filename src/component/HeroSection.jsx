@@ -46,7 +46,7 @@ const HeroSection = () => {
         id="home"
         className="relative overflow-hidden w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 "
       >
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mt-15">
+        <div className="container mx-auto px-6 md:px-12 lg:px-6 mt-15">
           {/* === Layout reversed on mobile === */}
           <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
             
@@ -161,7 +161,7 @@ const HeroSection = () => {
                   className="relative z-10 w-full h-full rounded-full object-cover border-4 border-transparent 
                   group-hover:border-cyan-400 transition-all duration-700 transform 
                   group-hover:scale-[1.03] group-hover:rotate-[5deg] shadow-xl 
-                  group-hover:shadow-cyan-500/30"
+                  group-hover:shadow-cyan-500/30 "
                 />
 
                 {/* === Added Text Badges === */}
@@ -173,7 +173,7 @@ const HeroSection = () => {
                 </span>
 
                 {/* Animated border rings */}
-                <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-white/30 transition-all duration-1000 scale-95 group-hover:scale-105" />
+                <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-white/30 transition-all duration-1000 scale-95 group-hover:scale-105 " />
                 <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-cyan-400/40 transition-all duration-700 scale-90 group-hover:scale-100 delay-75" />
 
                 {/* Floating dots animation */}

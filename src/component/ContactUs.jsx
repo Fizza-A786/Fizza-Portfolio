@@ -21,7 +21,7 @@ const ContactUs = () => {
   const contactItems = [
     {
       icon: <MdLocationPin />,
-      text: "Bahawalpur, Punjab, Pakistan",
+      text: "Hasalpur, Punjab, Pakistan",
       color: "from-red-500 to-pink-600",
       animation: "scale-110"
     },
@@ -58,7 +58,7 @@ const ContactUs = () => {
 
         <div className="flex flex-col lg:flex-row bg-gray-800/50 rounded-xl border border-gray-700 shadow-2xl overflow-hidden max-w-6xl mx-auto">
           {/* Form Section */}
-          <form ref={form} onSubmit={sendEmail} className="flex-1 p-8 md:p-10 space-y-6" data-aos="fade-right">
+          <form ref={form} onSubmit={sendEmail} className="flex-1 p-5 md:p-10 space-y-6" data-aos="fade-right">
             {['name', 'email', 'phone'].map((field, i) => (
               <input
                 key={field}
