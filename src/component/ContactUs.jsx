@@ -21,7 +21,7 @@ const ContactUs = () => {
   const contactItems = [
     {
       icon: <MdLocationPin />,
-      text: "Hasalpur, Punjab, Pakistan",
+      text: "Bahawalpur, Punjab, Pakistan",
       color: "from-red-500 to-pink-600",
       animation: "scale-110"
     },
