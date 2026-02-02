@@ -17,19 +17,19 @@ const Footer = () => {
     { 
       icon: <FaGithub />, 
       url: "https://github.com/Fizza-A786",  // Updated to placeholder for Fizza Amjad
-      color: "hover:text-purple-400",
+      color: "hover:text-pink-400",
       animation: "hover:scale-125 hover:-translate-y-1"
     },
     { 
       icon: <FaLinkedin />, 
       url: "https://www.linkedin.com/in/fizza-amjad-377859381",  // Updated to placeholder for Fizza Amjad
-      color: "hover:text-blue-400",
+      color: "hover:text-pink-500",
       animation: "hover:rotate-12 hover:scale-110"
     },
     { 
       icon: <FaEnvelope />, 
       url: "fizzaamjad813@gmail.com",  // Updated to placeholder email for Fizza Amjad
-      color: "hover:text-red-400",
+      color: "hover:text-pink-600",
       animation: "hover:translate-y-1 hover:scale-110"
     }
   ];
@@ -50,7 +50,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-10 border-t border-gray-700">
+    <footer className="bg-black text-white py-10 border-t border-gray-700">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* About Section */}
@@ -59,8 +59,8 @@ const Footer = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center mb-6"
             >
-              <FaUser className="text-blue-400 mr-3 text-2xl" />
-              <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
+              <FaUser className="text-pink-400 mr-3 text-2xl" />
+              <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600">
                 About Me
               </h3>
             </motion.div>
@@ -76,7 +76,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div data-aos="fade-up" data-aos-delay="100">
-            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
+            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-500">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -88,7 +88,7 @@ const Footer = () => {
                 >
                   <a 
                     href={link.href} 
-                    className="text-gray-300 hover:text-blue-400 transition-all duration-300 flex items-center"
+                    className="text-gray-300 hover:text-pink-400 transition-all duration-300 flex items-center"
                   >
                     <motion.span 
                       className="inline-block mr-2"
@@ -105,7 +105,7 @@ const Footer = () => {
 
           {/* Resources */}
           <div data-aos="fade-up" data-aos-delay="150">
-            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500">
+            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-pink-600">
               Resources
             </h3>
             <ul className="space-y-3">
@@ -117,7 +117,7 @@ const Footer = () => {
                 >
                   <a 
                     href={resource.href} 
-                    className="text-gray-300 hover:text-green-400 transition-all duration-300 flex items-center"
+                    className="text-gray-300 hover:text-pink-400 transition-all duration-300 flex items-center"
                   >
                     <motion.span 
                       className="inline-block mr-2"
@@ -134,7 +134,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div data-aos="fade-up" data-aos-delay="200">
-            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
+            <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-500">
               Connect
             </h3>
             <div className="flex space-x-4 mb-4">
@@ -163,7 +163,7 @@ const Footer = () => {
 
         {/* Copyright */}
          <p data-aos="fade-up" className="border-t border-gray-800 pt-8 text-center">
-          Made with <span className="">❤️</span> by <span className="font-bold">Fizza Amjad</span> &copy; {new Date().getFullYear()}
+          Made with <span className="">🎀</span> by <span className="font-bold">Fizza Amjad</span> &copy; {new Date().getFullYear()}
         </p>
      
       </div>

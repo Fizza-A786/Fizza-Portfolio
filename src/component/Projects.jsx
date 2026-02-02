@@ -24,37 +24,37 @@ const Projects = () => {
       pic: img1,
       title: "Car Rental App",
       link: "",
-      color: "from-cyan-500 to-blue-600"
+      color: "from-pink-500 to-pink-600"
     },
     {
       pic: img2,
       title: "Losail App",
       link: "",
-      color: "from-purple-500 to-pink-600"
+      color: "from-pink-400 to-pink-500"
     },
     {
       pic: img3,
       title: "Face Detection",
       link: "",
-      color: "from-amber-500 to-orange-600"
+      color: "from-pink-600 to-pink-700"
     },
     {
       pic: img4,
       title: "VPN App",
       link: "https://www.vpnapp.com",
-      color: "from-emerald-500 to-teal-600"
+      color: "from-pink-500 to-pink-600"
     },
     {
       pic: img5,
       title: "Task Tracker",
       link: "",
-      color: "from-violet-500 to-indigo-600"
+      color: "from-pink-400 to-pink-500"
     },
     {
       pic: img6,
       title: "Quiz Quick",
       link: "",
-      color: "from-rose-500 to-red-600"
+      color: "from-pink-600 to-pink-700"
     }
   ];
 
@@ -97,16 +97,16 @@ const Projects = () => {
 
   return (
     <Fragment>
-      <section id="projects" className="relative py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
+      <section id="projects" className="relative py-20 bg-black overflow-hidden">
         {/* Background elements */}
-        <div className="absolute top-0 left-0 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-40 h-40 bg-purple-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-40 h-40 bg-pink-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-40 h-40 bg-pink-600/10 rounded-full blur-3xl"></div>
 
         <div className="container mx-auto px-6">
           {/* Title with animation */}
           <div className="flex justify-center mb-16">
             <h1 
-              className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"
+              className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600"
               data-aos="fade-down"
               data-aos-delay="100"
             >
@@ -122,7 +122,7 @@ const Projects = () => {
                   key={index}
                   data-aos={anim.card}
                   data-aos-delay={index * 100}
-                  className="relative group overflow-hidden bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-500 hover:shadow-lg hover:shadow-cyan-500/20"
+                  className="relative group overflow-hidden bg-black/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-pink-400 transition-all duration-500 hover:shadow-lg hover:shadow-pink-500/20"
                   onMouseEnter={() => setHoveredProject(index)}
                   onMouseLeave={() => setHoveredProject(null)}
                   onClick={() => window.open(item.link, "_blank")}

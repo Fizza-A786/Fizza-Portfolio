@@ -30,9 +30,9 @@ const Navbar = () => {
               setActiveLink("home");
             }}
           >
-            <GiLaurelCrown className="text-yellow-400 text-3xl mr-2 group-hover:text-yellow-300 transition-all duration-500" />
+            <GiLaurelCrown className="text-pink-400 text-3xl mr-2 group-hover:text-pink-300 transition-all duration-500" />
 
-            <span className="text-white font-bold text-xl hidden sm:block group-hover:text-yellow-300 transition-colors duration-300">
+            <span className="text-white font-bold text-xl hidden sm:block group-hover:text-pink-300 transition-colors duration-300">
               Fizza Amjad
             </span>
           </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="lg:hidden flex justify-end items-center w-1/4">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none hover:text-yellow-400 transition-all duration-300 hover:scale-110"
+            className="text-white focus:outline-none hover:text-pink-400 transition-all duration-300 hover:scale-110"
           >
             {isMenuOpen ? (
               <IoCloseSharp size={28} />
@@ -68,7 +68,7 @@ const Navbar = () => {
                       href={`#${lowercaseItem}`}
                       className={`transition-all duration-300 ${
                         activeLink === lowercaseItem
-                          ? "text-yellow-400"
+                          ? "text-pink-400"
                           : "text-gray-300 hover:text-white"
                       }`}
                     >
@@ -77,8 +77,8 @@ const Navbar = () => {
                       <span
                         className={`absolute bottom-0 left-0 h-0.5 transition-all duration-500 ${
                           activeLink === lowercaseItem
-                            ? "bg-yellow-400 w-full"
-                            : "bg-yellow-400 w-0 group-hover:w-full"
+                            ? "bg-pink-400 w-full"
+                            : "bg-pink-400 w-0 group-hover:w-full"
                         }`}
                       ></span>
                     </a>
@@ -96,7 +96,7 @@ const Navbar = () => {
               window.location.href = "#contact";
               setActiveLink("contact");
             }}
-            className="text-black bg-gradient-to-r from-yellow-500 to-yellow-600 px-6 py-2 rounded-full hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300 shadow-lg font-medium"
+            className="text-white bg-gradient-to-r from-pink-500 to-pink-600 px-6 py-2 rounded-full hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg font-medium"
           >
             Contact Us
           </button>
@@ -127,7 +127,7 @@ const Navbar = () => {
                     href={`#${lowercaseItem}`}
                     className={`block py-2 transition-all duration-300 ${
                       activeLink === lowercaseItem
-                        ? "text-yellow-400"
+                        ? "text-pink-400"
                         : "text-gray-300 hover:text-white"
                     }`}
                   >

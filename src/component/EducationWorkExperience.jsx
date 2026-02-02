@@ -16,13 +16,13 @@ const EducationWorkExperience = () => {
     <Fragment>
       <section id="resume" className="relative py-20 bg-black overflow-hidden">
         {/* Background elements */}
-        <div className="absolute top-0 left-0 w-40 h-40 bg-yellow-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-40 h-40 bg-yellow-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-40 h-40 bg-pink-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-40 h-40 bg-pink-600/10 rounded-full blur-3xl"></div>
 
         <div className="container mx-auto px-6">
           {/* Title with animation */}
           <h1 
-            className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-12"
+            className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600 mb-12"
             data-aos="flip-down"
           >
             Education & Work Experience
@@ -36,8 +36,8 @@ const EducationWorkExperience = () => {
               data-aos-delay="200"
             >
               <div className="flex items-center mb-8">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-pink-600 flex items-center justify-center mr-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                   </svg>
                 </div>
@@ -45,17 +45,17 @@ const EducationWorkExperience = () => {
               </div>
 
               {/* Education Timeline */}
-              <div className="relative pl-12 border-l-2 border-yellow-500/30 space-y-8">
+              <div className="relative pl-12 border-l-2 border-pink-500/30 space-y-8">
                 {/* Timeline item 1 - Intermediate */}
                 <div 
                   className="relative"
                   data-aos="fade-right"
                   data-aos-delay="300"
                 >
-                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 border-4 border-black"></div>
-                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-500">
+                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-pink-500 to-pink-600 border-4 border-black"></div>
+                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-pink-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Matriculation (Science)</h1>
-                    <div className="text-yellow-400 font-medium mb-2">2020-2022</div>
+                    <div className="text-pink-400 font-medium mb-2">2020-2022</div>
                     <p className="text-gray-300">Superior College (Hasilpur)</p>
                   </div>
                 </div>
@@ -65,10 +65,10 @@ const EducationWorkExperience = () => {
                   data-aos="fade-right"
                   data-aos-delay="300"
                 >
-                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 border-4 border-black"></div>
-                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-500">
+                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-pink-500 to-pink-600 border-4 border-black"></div>
+                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-pink-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Intermediate (ICS Computer Science)</h1>
-                    <div className="text-yellow-400 font-medium mb-2">2022-2024</div>
+                    <div className="text-pink-400 font-medium mb-2">2022-2024</div>
                     <p className="text-gray-300">Superior College (Hasilpur)</p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ const EducationWorkExperience = () => {
 
             {/* Vertical Divider - Only on large screens */}
             <div className="hidden lg:block">
-              <div className="w-px h-full bg-gradient-to-b from-transparent via-yellow-500 to-transparent mx-4"></div>
+              <div className="w-px h-full bg-gradient-to-b from-transparent via-pink-500 to-transparent mx-4"></div>
             </div>
 
             {/* Experience Section */}
@@ -87,8 +87,8 @@ const EducationWorkExperience = () => {
               data-aos-delay="200"
             >
               <div className="flex items-center mb-8">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-pink-400 to-pink-500 flex items-center justify-center mr-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
@@ -96,17 +96,17 @@ const EducationWorkExperience = () => {
               </div>
 
               {/* Experience Timeline */}
-              <div className="relative pl-12 border-l-2 border-yellow-400/30 space-y-8">
+              <div className="relative pl-12 border-l-2 border-pink-400/30 space-y-8">
                 {/* Timeline item 1 */}
                 <div 
                   className="relative"
                   data-aos="fade-left"
                   data-aos-delay="300"
                 >
-                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 border-4 border-black"></div>
-                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-500">
+                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-pink-400 to-pink-500 border-4 border-black"></div>
+                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-pink-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Frontend Developer</h1>
-                    <div className="text-yellow-400 font-medium mb-2">2025-Present</div>
+                    <div className="text-pink-400 font-medium mb-2">2025-Present</div>
                     <p className="text-gray-300">Codes Thinker Bahawalpur (Onsite)</p>
                   </div>
                 </div>
@@ -117,10 +117,10 @@ const EducationWorkExperience = () => {
                   data-aos="fade-left"
                   data-aos-delay="400"
                 >
-                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 border-4 border-black"></div>
-                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-500">
+                  <div className="absolute -left-12 top-0 w-6 h-6 rounded-full bg-gradient-to-r from-pink-400 to-pink-500 border-4 border-black"></div>
+                  <div className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-pink-400 transition-all duration-500">
                     <h1 className="text-xl font-medium text-white mb-1">Frontend Developer</h1>
-                    <div className="text-yellow-400 font-medium mb-2">2026-Present</div>
+                    <div className="text-pink-400 font-medium mb-2">2026-Present</div>
                     <p className="text-gray-300">ASL Digital Creator Company (Remote)</p>
                   </div>
                 </div>

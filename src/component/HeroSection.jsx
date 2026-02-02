@@ -58,7 +58,7 @@ const HeroSection = () => {
               >
                 <span className="block">Hi, I'm</span>
                 <span
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
@@ -100,24 +100,24 @@ const HeroSection = () => {
                   {[
                     {
                       icon: <FaFacebookF />,
-                      color: "from-yellow-600 to-yellow-800",
+                      color: "from-pink-600 to-pink-800",
                       url: "https://www.facebook.com/profile.php?id=61587268911541",
                     },
                     {
                       icon: <FaLinkedinIn />,
-                      color: "from-yellow-500 to-yellow-700",
+                      color: "from-pink-500 to-pink-700",
                       url: "https://www.linkedin.com/in/fizza-amjad-377859381", // Updated placeholder
                     },
                     {
                       icon: <FaGithub />,
-                      color: "from-yellow-600 to-gray-900",
+                      color: "from-pink-600 to-gray-900",
                       url: "https://github.com/Fizza-A786", // Updated placeholder
                     },
                   ].map((social, index) => (
                     <button
                       key={index}
                       onClick={() => openSocial(social.url)}
-                      className={`h-10 w-10 rounded-full flex items-center justify-center text-black bg-gradient-to-br ${social.color} shadow-lg hover:scale-110 transition-transform duration-300`}
+                      className={`h-10 w-10 rounded-full flex items-center justify-center text-white bg-gradient-to-br ${social.color} shadow-lg hover:scale-110 transition-transform duration-300`}
                     >
                       {social.icon}
                     </button>
@@ -138,7 +138,7 @@ const HeroSection = () => {
                   {[...Array(12)].map((_, i) => (
                     <div
                       key={i}
-                      className="absolute rounded-full bg-yellow-400 opacity-20 animate-float"
+                      className="absolute rounded-full bg-pink-400 opacity-20 animate-float"
                       style={{
                         width: `${Math.random() * 10 + 5}px`,
                         height: `${Math.random() * 10 + 5}px`,
@@ -152,36 +152,36 @@ const HeroSection = () => {
                 </div>
 
                 {/* Glowing gradient halo */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 blur-lg opacity-0 group-hover:opacity-50 transition-all duration-700 scale-90 group-hover:scale-100" />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 blur-lg opacity-0 group-hover:opacity-50 transition-all duration-700 scale-90 group-hover:scale-100" />
 
                 {/* Main profile image */}
                 <img
                   src={pic1}
                   alt="Fizza Amjad"
                   className="relative z-10 w-full h-full rounded-full object-cover border-4 border-transparent 
-                  group-hover:border-yellow-400 transition-all duration-700 transform 
+                  group-hover:border-pink-400 transition-all duration-700 transform 
                   group-hover:scale-[1.03] group-hover:rotate-[5deg] shadow-xl 
-                  group-hover:shadow-yellow-500/30 "
+                  group-hover:shadow-pink-500/30 "
                 />
 
                 {/* === Added Text Badges === */}
-                <span className="absolute top-2 left-2 bg-gradient-to-r from-yellow-500 to-yellow-600 text-black text-xs md:text-sm font-semibold px-3 py-1 rounded-full shadow-lg z-20">
+                <span className="absolute top-2 left-2 bg-gradient-to-r from-pink-500 to-pink-600 text-white text-xs md:text-sm font-semibold px-3 py-1 rounded-full shadow-lg z-20">
                   Frontend Developer
                 </span>
-                <span className="absolute bottom-2 right-2 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black text-xs md:text-sm font-semibold px-3 py-1 rounded-full shadow-lg z-20">
+                <span className="absolute bottom-2 right-2 bg-gradient-to-r from-pink-400 to-pink-500 text-white text-xs md:text-sm font-semibold px-3 py-1 rounded-full shadow-lg z-20">
                   Web Designer
                 </span>
 
                 {/* Animated border rings */}
                 <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-white/30 transition-all duration-1000 scale-95 group-hover:scale-105 " />
-                <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-yellow-400/40 transition-all duration-700 scale-90 group-hover:scale-100 delay-75" />
+                <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-pink-400/40 transition-all duration-700 scale-90 group-hover:scale-100 delay-75" />
 
                 {/* Floating dots animation */}
                 <div className="absolute -inset-4 overflow-hidden rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
                   {[...Array(8)].map((_, i) => (
                     <div
                       key={i}
-                      className="absolute rounded-full bg-yellow-400 animate-float"
+                      className="absolute rounded-full bg-pink-400 animate-float"
                       style={{
                         width: "6px",
                         height: "6px",
