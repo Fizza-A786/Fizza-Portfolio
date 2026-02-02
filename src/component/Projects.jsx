@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
-import img1 from "../Images/p1.jpg";
+import img1 from "../Images/AppleStore.png";
 import img2 from "../Images/p2.webp";
 import img3 from "../Images/p3.jpg";
 import img4 from "../Images/p4.jpg";
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       pic: img4,
       title: "VPN App",
-      link: "https://www.vpnapp.com",
+      link: "",
       color: "from-pink-500 to-pink-600"
     },
     {
