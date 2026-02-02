@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaCode, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,FaEnvelope } from 'react-icons/fa';
 import { FaUser } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import { GoChevronRight } from "react-icons/go";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -94,7 +95,7 @@ const Footer = () => {
                       className="inline-block mr-2"
                       whileHover={{ scale: 1.2 }}
                     >
-                      →
+                      <GoChevronRight />
                     </motion.span>
                     {link.name}
                   </a>
@@ -123,7 +124,7 @@ const Footer = () => {
                       className="inline-block mr-2"
                       whileHover={{ rotate: 90 }}
                     >
-                      ✧
+                      <GoChevronRight />
                     </motion.span>
                     {resource.name}
                   </a>

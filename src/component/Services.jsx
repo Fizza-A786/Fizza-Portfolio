@@ -104,7 +104,7 @@ const Services = () => {
           {/* Title with animation */}
           <div className="flex justify-center mb-16">
             <h1 
-              className="text-4xl md:text-5xl font-bold text-center text-transparent  bg-gradient-to-r from-pink-400 to-pink-600"
+              className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600"
               data-aos="fade-down"
               data-aos-delay="100"
             >
