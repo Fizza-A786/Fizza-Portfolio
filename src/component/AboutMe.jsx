@@ -25,7 +25,7 @@ const AboutMe = () => {
         animation: float 6s ease-in-out infinite;
       }
       .glow-shadow {
-        box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
       }
     `;
     document.head.appendChild(style);
@@ -46,7 +46,7 @@ const AboutMe = () => {
 
   return (
     <Fragment>
-      <section id="about" className="relative bg-gradient-to-br from-gray-900 to-gray-800 py-20  overflow-hidden">
+      <section id="about" className="relative bg-black py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             {/* Profile Image with Enhanced Animations */}
@@ -56,14 +56,14 @@ const AboutMe = () => {
             >
               <div className="relative w-64 h-64 md:w-80 md:h-80 group">
                 {/* Glowing gradient halo */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 blur-lg opacity-0 group-hover:opacity-40 transition-all duration-700" />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 blur-lg opacity-0 group-hover:opacity-40 transition-all duration-700" />
 
                 {/* Main profile image */}
                 <img
                   src={pic1}
                   alt="Fizza Amjad"
-                  className="relative z-10 w-full h-full rounded-full object-cover border-4 border-cyan-400/30 
-                  group-hover:border-cyan-400 transition-all duration-500 floating-img
+                  className="relative z-10 w-full h-full rounded-full object-cover border-4 border-yellow-400/30 
+                  group-hover:border-yellow-400 transition-all duration-500 floating-img
                   group-hover:glow-shadow"
                 />
 
@@ -72,7 +72,7 @@ const AboutMe = () => {
                   {[...Array(8)].map((_, i) => (
                     <div
                       key={i}
-                      className="absolute rounded-full bg-cyan-400"
+                      className="absolute rounded-full bg-yellow-400"
                       style={{
                         width: '8px',
                         height: '8px',
@@ -90,7 +90,7 @@ const AboutMe = () => {
             {/* About Content */}
             <div className="w-full lg:w-3/5 space-y-6 p-5 md:p-0">
               <h1 
-                className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"
+                className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600"
                 data-aos="zoom-out-up"
                 data-aos-delay="100"
               >
@@ -112,9 +112,9 @@ const AboutMe = () => {
               >
                 <button
                   onClick={handleDownload}
-                  className="relative overflow-hidden px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium
-                  hover:from-cyan-600 hover:to-blue-700 transition-all duration-500 shadow-lg hover:shadow-cyan-500/30
-                  before:absolute before:inset-0 before:bg-gradient-to-r before:from-blue-600 before:to-cyan-500 before:opacity-0 
+                  className="relative overflow-hidden px-8 py-3 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-medium
+                  hover:from-yellow-600 hover:to-yellow-700 transition-all duration-500 shadow-lg hover:shadow-yellow-500/30
+                  before:absolute before:inset-0 before:bg-gradient-to-r before:from-yellow-600 before:to-yellow-500 before:opacity-0 
                   before:hover:opacity-100 before:transition-opacity before:duration-500 before:rounded-full"
                 >
                   <span className="relative z-10">Download CV</span>
@@ -125,8 +125,8 @@ const AboutMe = () => {
         </div>
 
         {/* Floating background elements */}
-        <div className="absolute -bottom-20 -left-20 w-40 h-40 rounded-full bg-cyan-400/10 blur-3xl"></div>
-        <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-blue-500/10 blur-3xl"></div>
+        <div className="absolute -bottom-20 -left-20 w-40 h-40 rounded-full bg-yellow-400/10 blur-3xl"></div>
+        <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-yellow-500/10 blur-3xl"></div>
       </section>
     </Fragment>
   );

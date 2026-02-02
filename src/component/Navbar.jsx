@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Fragment>
       {/* ✅ Responsive Left/Right Padding Added */}
-      <nav className="flex items-center justify-between fixed bg-gradient-to-r from-gray-900 to-gray-800 w-full py-4 px-5 sm:px-8 lg:px-12 top-0 z-50 shadow-lg border-b border-gray-700">
+      <nav className="flex items-center justify-between fixed bg-black w-full py-4 px-5 sm:px-8 lg:px-12 top-0 z-50 shadow-lg border-b border-gray-700">
         
         {/* Logo on left */}
         <div className="w-1/4 flex justify-start items-center">
@@ -30,9 +30,9 @@ const Navbar = () => {
               setActiveLink("home");
             }}
           >
-            <GiLaurelCrown className="text-cyan-400 text-3xl mr-2 group-hover:text-cyan-300 transition-all duration-500" />
+            <GiLaurelCrown className="text-yellow-400 text-3xl mr-2 group-hover:text-yellow-300 transition-all duration-500" />
 
-            <span className="text-white font-bold text-xl hidden sm:block group-hover:text-cyan-300 transition-colors duration-300">
+            <span className="text-white font-bold text-xl hidden sm:block group-hover:text-yellow-300 transition-colors duration-300">
               Fizza Amjad
             </span>
           </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="lg:hidden flex justify-end items-center w-1/4">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none hover:text-cyan-400 transition-all duration-300 hover:scale-110"
+            className="text-white focus:outline-none hover:text-yellow-400 transition-all duration-300 hover:scale-110"
           >
             {isMenuOpen ? (
               <IoCloseSharp size={28} />
@@ -68,7 +68,7 @@ const Navbar = () => {
                       href={`#${lowercaseItem}`}
                       className={`transition-all duration-300 ${
                         activeLink === lowercaseItem
-                          ? "text-cyan-400"
+                          ? "text-yellow-400"
                           : "text-gray-300 hover:text-white"
                       }`}
                     >
@@ -77,8 +77,8 @@ const Navbar = () => {
                       <span
                         className={`absolute bottom-0 left-0 h-0.5 transition-all duration-500 ${
                           activeLink === lowercaseItem
-                            ? "bg-cyan-400 w-full"
-                            : "bg-white w-0 group-hover:w-full"
+                            ? "bg-yellow-400 w-full"
+                            : "bg-yellow-400 w-0 group-hover:w-full"
                         }`}
                       ></span>
                     </a>
@@ -96,7 +96,7 @@ const Navbar = () => {
               window.location.href = "#contact";
               setActiveLink("contact");
             }}
-            className="text-white bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-2 rounded-full hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 shadow-lg font-medium"
+            className="text-black bg-gradient-to-r from-yellow-500 to-yellow-600 px-6 py-2 rounded-full hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300 shadow-lg font-medium"
           >
             Contact Us
           </button>
@@ -104,7 +104,7 @@ const Navbar = () => {
 
         {/* Mobile Dropdown */}
         <div
-          className={`lg:hidden absolute top-16 left-0 w-full bg-gray-800 px-6 py-4 transition-all duration-300 shadow-xl ${
+          className={`lg:hidden absolute top-16 left-0 w-full bg-black px-6 py-4 transition-all duration-300 shadow-xl ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
@@ -127,7 +127,7 @@ const Navbar = () => {
                     href={`#${lowercaseItem}`}
                     className={`block py-2 transition-all duration-300 ${
                       activeLink === lowercaseItem
-                        ? "text-cyan-400"
+                        ? "text-yellow-400"
                         : "text-gray-300 hover:text-white"
                     }`}
                   >
