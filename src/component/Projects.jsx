@@ -1,11 +1,11 @@
 import { Fragment, useEffect, useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
-import img1 from "../Images/AppleStore.png";
-import img2 from "../Images/p2.webp";
-import img3 from "../Images/p3.jpg";
-import img4 from "../Images/p4.jpg";
-import img5 from "../Images/p5.jpg";
-import img6 from "../Images/p6.jpg";
+import img1 from "../Images/AppleStorepro.png";
+import img2 from "../Images/Craftivo.png";
+import img3 from "../Images/Strive.png";
+import img4 from "../Images/MediNest.png";
+import img5 from "../Images/Arsha.png";
+import img6 from "../Images/AOS.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -28,31 +28,31 @@ const Projects = () => {
     },
     {
       pic: img2,
-      title: "Losail App",
+      title: "Craftivo",
       link: "",
       color: "from-pink-400 to-pink-500"
     },
     {
       pic: img3,
-      title: "Face Detection",
+      title: "Strive",
       link: "",
       color: "from-pink-600 to-pink-700"
     },
     {
       pic: img4,
-      title: "VPN App",
+      title: "MediNest",
       link: "",
       color: "from-pink-500 to-pink-600"
     },
     {
       pic: img5,
-      title: "Task Tracker",
+      title: "Arsha",
       link: "",
       color: "from-pink-400 to-pink-500"
     },
     {
       pic: img6,
-      title: "Quiz Quick",
+      title: "AOS",
       link: "",
       color: "from-pink-600 to-pink-700"
     }
