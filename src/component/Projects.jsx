@@ -22,7 +22,7 @@ const Projects = () => {
   const myProjects = [
     {
       pic: img1,
-      title: "Car Rental App",
+      title: "Apple store",
       link: "",
       color: "from-pink-500 to-pink-600"
     },
