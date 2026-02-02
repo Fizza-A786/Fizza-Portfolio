@@ -43,9 +43,9 @@ function App() {
           
           @keyframes color-change {
             0% { color: #ffffff; }
-            25% { color: #60a5fa; }
-            50% { color: #c084fc; }
-            75% { color: #fbbf24; }
+            25% { color: #ec4899; }
+            50% { color: #f472b6; }
+            75% { color: #fb7185; }
             100% { color: #ffffff; }
           }
           
@@ -76,28 +76,26 @@ function App() {
           `}
         </style>
         
-        <div className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-900 to-gray-950">
-          {/* Main spinner container */}
+        <div className="flex items-center justify-center h-screen bg-black">
+       
           <div className="relative w-32 h-32">
-            {/* Outer spinning ring with gradient */}
-            <div className="absolute inset-0 border-4 border-transparent border-t-blue-500 border-r-purple-500 rounded-full animate-spin-slow"></div>
+          
+            <div className="absolute inset-0 border-4 border-transparent border-t-pink-500 border-r-pink-400 rounded-full animate-spin-slow"></div>
             
-            {/* Middle ring spinning in opposite direction */}
-            <div className="absolute inset-3 border-4 border-transparent border-b-green-400 border-l-yellow-400 rounded-full animate-spin-reverse"></div>
+            <div className="absolute inset-3 border-4 border-transparent border-b-pink-300 border-l-pink-200 rounded-full animate-spin-reverse"></div>
             
-            {/* Inner pulsing circle */}
-            <div className="absolute inset-6 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse-slow"></div>
+       
+            <div className="absolute inset-6 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full animate-pulse-slow"></div>
             
-            {/* Plus sign with color change animation */}
+            
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-white text-3xl font-bold animate-color-change">+</div>
             </div>
             
-            {/* Floating particles */}
             {[...Array(8)].map((_, i) => (
               <div 
                 key={i}
-                className="absolute w-2 h-2 bg-white rounded-full animate-float"
+                className="absolute w-2 h-2 bg-pink-200 rounded-full animate-float"
                 style={{
                   left: `${50 + 40 * Math.cos((i * 45 * Math.PI) / 180)}%`,
                   top: `${50 + 40 * Math.sin((i * 45 * Math.PI) / 180)}%`,
@@ -113,7 +111,7 @@ function App() {
 
   return (
     <Fragment>
-      <div className='bg-gray-950'>
+      <div className='bg-black'>
         <Navbar />
         <HeroSection />
         <AboutMe />
