@@ -51,7 +51,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-black text-white py-10 border-t border-gray-700">
+    <footer className="bg-black text-white py-7 border-t border-gray-700">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* About Section */}
@@ -162,7 +162,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
          <p data-aos="fade-up" className="border-t border-gray-800 pt-8 text-center">
           Made with <span className="">🎀</span> by <span className="font-bold">Fizza Amjad</span> &copy; {new Date().getFullYear()}
         </p>
