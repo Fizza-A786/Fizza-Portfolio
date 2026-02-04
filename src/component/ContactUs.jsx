@@ -77,19 +77,20 @@ const ContactUs = () => {
             className="flex-1 p-6 sm:p-7 md:p-8 space-y-5"
             data-aos="fade-right"
           >
-            {["name", "email", "phone"].map((field, i) => (
+            {["name", "email", "phone"].map((field) => (
               <input
                 key={field}
                 type={
                   field === "email"
                     ? "email"
                     : field === "phone"
-                      ? "tel"
-                      : "text"
+                    ? "tel"
+                    : "text"
                 }
                 name={field}
-                placeholder={`Your ${field.charAt(0).toUpperCase() + field.slice(1)
-                  }`}
+                placeholder={`Your ${
+                  field.charAt(0).toUpperCase() + field.slice(1)
+                }`}
                 className="w-full px-4 py-3 rounded-xl 
                 bg-gray-700/40 border border-gray-600 
                 text-white placeholder-gray-400 
@@ -129,8 +130,11 @@ const ContactUs = () => {
 
           {/* Contact Info Section */}
           <div
-            className="flex-1 p-6 sm:p-7 md:p-8 
-            bg-gray-800/20 border-t lg:border-t-0 lg:border-l border-gray-700
+            className="flex-1 
+            px-8 sm:px-10 md:px-12   /* left & right padding increased */
+            py-6 sm:py-7 md:py-8 
+            bg-gray-800/20 
+            border-t lg:border-t-0 lg:border-l border-gray-700
             flex flex-col justify-center"
             data-aos="fade-left"
           >

@@ -14,7 +14,7 @@ const EducationWorkExperience = () => {
 
   return (
     <Fragment>
-      <section id="resume" className="relative py-20 bg-black overflow-hidden">
+      <section id="resume" className="relative py-17 bg-black overflow-hidden">
         {/* Background elements */}
         <div className="absolute top-0 left-0 w-40 h-40 bg-pink-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-40 h-40 bg-pink-600/10 rounded-full blur-3xl"></div>
