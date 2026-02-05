@@ -35,7 +35,7 @@ const MySkills = () => {
       <div className="container mx-auto px-6">
         {/* Title with animation */}
         <h2 
-          className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600 mb-12"
+          className="text-4xl p-2 md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600 mb-12"
           data-aos="zoom-out"
         >
           My Skills
