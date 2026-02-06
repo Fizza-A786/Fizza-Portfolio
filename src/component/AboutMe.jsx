@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from "react";
 import pic1 from "../Images/Fizza.png";
-import resume from "../Images/Fizza.resume.pdf";
+import resume from "../Images/FizzaCV.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
