@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <nav className="flex items-center justify-between fixed bg-black w-full py-4 px-5 sm:px-8 lg:px-12 top-0 z-50 shadow-lg border-b border-gray-700">
+      <nav className="flex items-center justify-between fixed bg-black w-full py-3 px-5 sm:px-8 lg:px-12 top-0 z-50 shadow-lg border-b border-gray-700">
         <div className="w-1/4 flex justify-start items-center">
           <div
             className="flex items-center cursor-pointer group"

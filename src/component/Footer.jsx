@@ -45,13 +45,14 @@ const Footer = () => {
   ];
 
   const resources = [
-    { name: "Tutorials", href: "#tutorials" },
-    { name: "Tools", href: "#tools" },
-    { name: "Community", href: "#community" }
+    { name: "Privacy Policy", href: "" },
+    { name: "FAQ", href: "" },
+    { name: "Terms & Conditions", href: "" },
+    { name: "Community", href: "#" }
   ];
 
   return (
-    <footer className="bg-black text-white py-7 border-t border-gray-700">
+    <footer className="bg-black text-white py-6 sm:py-8 border-t border-gray-700">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* About Section */}
@@ -107,7 +108,7 @@ const Footer = () => {
           {/* Resources */}
           <div data-aos="fade-up" data-aos-delay="150">
             <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-pink-600">
-              Resources
+              Customer Service
             </h3>
             <ul className="space-y-3">
               {resources.map((resource, index) => (
@@ -162,7 +163,7 @@ const Footer = () => {
           </div>
         </div>
 
-         <p data-aos="fade-up" className="border-t border-gray-800 pt-8 text-center">
+         <p data-aos="fade-up" className="border-t border-gray-800 pt-4 text-center">
           Made with <span className="">🎀</span> by <span className="font-bold">Fizza Amjad</span> &copy; {new Date().getFullYear()}
         </p>
      

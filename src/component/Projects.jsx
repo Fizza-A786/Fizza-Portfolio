@@ -61,7 +61,7 @@ const Projects = () => {
 
   return (
     <Fragment>
-      <section id="projects" className="relative py-24 bg-black overflow-hidden">
+      <section id="projects" className="relative py-6 sm:py-15 bg-black overflow-hidden">
         {/* Soft Background Glows */}
         <div className="absolute top-10 left-10 w-64 h-64 bg-pink-600/20 rounded-full blur-[100px] pointer-events-none"></div>
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-pink-600/20 rounded-full blur-[100px] pointer-events-none"></div>
@@ -69,7 +69,7 @@ const Projects = () => {
         <div className="container mx-auto px-6 relative z-10">
           
           {/* Header Section */}
-          <div className="flex flex-col items-center mb-16 text-center">
+          <div className="flex flex-col items-center mb-8 sm:mb-10 text-center">
              <h1 
               className="text-4xl p-2 md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600"
               data-aos="fade-down"
@@ -80,7 +80,7 @@ const Projects = () => {
                </div>
 
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 ">
             {myProjects.map((item, index) => (
               <div
                 key={index}

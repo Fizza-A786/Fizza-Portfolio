@@ -14,7 +14,7 @@ const EducationWorkExperience = () => {
 
   return (
     <Fragment>
-      <section id="resume" className="relative py-17 bg-black overflow-hidden">
+      <section id="resume" className="relative py-6 sm:py-15 bg-black overflow-hidden">
         {/* Background elements */}
         <div className="absolute top-0 left-0 w-40 h-40 bg-pink-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-40 h-40 bg-pink-600/10 rounded-full blur-3xl"></div>
@@ -22,10 +22,10 @@ const EducationWorkExperience = () => {
         <div className="container mx-auto px-6">
           {/* Title with animation */}
           <h1 
-            className="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600 mb-12"
+            className="text-3xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600 mb-8 sm:mb-10"
             data-aos="flip-down"
           >
-            Education & Work Experience
+            Education & Experience
           </h1>
 
           <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-16">

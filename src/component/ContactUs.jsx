@@ -50,13 +50,13 @@ const ContactUs = () => {
   ];
 
   return (
-    <section id="contact" className="relative py-20 bg-black">
+    <section id="contact" className="relative py-6 sm:py-15 bg-black">
       <div className="container mx-auto px-5 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <h1
           className="text-4xl sm:text-5xl font-bold text-center 
           text-transparent bg-clip-text 
-          bg-gradient-to-r from-pink-400 to-pink-600 mb-14"
+          bg-gradient-to-r from-pink-400 to-pink-600 mb-8 sm:mb-10"
           data-aos="fade-down"
         >
           Get In Touch
@@ -74,7 +74,7 @@ const ContactUs = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex-1 p-6 sm:p-7 md:p-8 space-y-5"
+            className="flex-1 p-4 sm:p-7 md:p-8 space-y-5"
             data-aos="fade-right"
           >
             {["name", "email", "phone"].map((field) => (
@@ -121,7 +121,7 @@ const ContactUs = () => {
               hover:from-pink-600 hover:to-pink-700 
               text-white font-semibold py-3 rounded-xl 
               transition-all duration-300 
-              hover:shadow-[0_10px_25px_rgba(236,72,153,0.4)]"
+              hover:shadow-[0_10px_25px_rgba(236,72,153,0.4)] cursor-pointer"
             >
               <FaPaperPlane className="text-sm" />
               Send Message
@@ -131,7 +131,7 @@ const ContactUs = () => {
           {/* Contact Info Section */}
           <div
             className="flex-1 
-            px-8 sm:px-10 md:px-12   /* left & right padding increased */
+            px-5 sm:px-10 md:px-12   /* left & right padding increased */
             py-6 sm:py-7 md:py-8 
             bg-gray-800/20 
             border-t lg:border-t-0 lg:border-l border-gray-700

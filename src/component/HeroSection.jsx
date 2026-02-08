@@ -44,7 +44,7 @@ const HeroSection = () => {
     <Fragment>
       <section
         id="home"
-        className="relative overflow-hidden w-full bg-black py-20"
+        className="relative overflow-hidden w-full bg-black py-10 sm:py-15"
       >
         <div className="container mx-auto px-6 md:px-12 lg:px-6 mt-15">
           {/* === Layout reversed on mobile === */}
